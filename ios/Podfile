@@ -1,0 +1,182 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '11.0'
+
+target 'invia_mwallet' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+  pod 'react-native-config', :path => '../node_modules/react-native-config'
+
+  target 'invia_mwalletTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  # post_install do |installer|
+   #  flipper_post_install(installer)
+  #end
+end
+
+target 'invia_mwallet_Invia' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  # post_install do |installer|
+   #  flipper_post_install(installer)
+  #end
+end
+
+target 'invia_mwallet_Voda' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  # post_install do |installer|
+   #  flipper_post_install(installer)
+  #end
+end
+
+target 'invia_mwallet_CCS' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  # post_install do |installer|
+   #  flipper_post_install(installer)
+  #end
+end
+
+target 'invia_mwallet_CCS_Prod' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  # post_install do |installer|
+   #  flipper_post_install(installer)
+  #end
+end
+
+target 'invia_mwallet_Suncorp' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  # post_install do |installer|
+   #  flipper_post_install(installer)
+  #end
+end
+
+target 'invia_mwallet_ICAI' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  # post_install do |installer|
+   #  flipper_post_install(installer)
+  #end
+end
+
+target 'invia_mwallet_Release' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  # post_install do |installer|
+   #  flipper_post_install(installer)
+  #end
+end
+
+target 'invia_mwallet_Amway' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  # post_install do |installer|
+   #  flipper_post_install(installer)
+  #end
+end
+
+
+target 'invia_mwallet-tvOS' do
+  # Pods for invia_mwallet-tvOS
+
+  target 'invia_mwallet-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

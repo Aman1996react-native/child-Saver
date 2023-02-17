@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "286388112981",
+    "project_id": "ccs-reward360",
+    "storage_bucket": "ccs-reward360.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286388112981:android:74775981e613e3bc738edc",
+        "android_client_info": {
+          "package_name": "com.invia.ccs.rewards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286388112981-871eld5qq2llu8ht11pqflcu389ro884.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.invia.ccs.rewards",
+            "certificate_hash": "e095ae1af092e10b21c0c36c179756e06afd7077"
+          }
+        },
+        {
+          "client_id": "286388112981-ahv3t3ab2hvmkfne8smdnk1ngq04khlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVYCH5yGraUkdQ7IMx5Q23tfQu6FLKEho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286388112981-ahv3t3ab2hvmkfne8smdnk1ngq04khlc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "286388112981-2mc4g6k7ic9hl53g006hor68mn7ll4m2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.invia.rewards.ccs",
+                "app_store_id": "1234"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
